@@ -1,16 +1,21 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html {
+html{
     font-size: 10px;
     font-family: "Open Sans", sans-serif;
     background-color: #f5f5f5;
 }
-
-h1 {
+a:link{
+    text-decoration: none;
+}
+h1:hover {
+    color: #ff0000;
+}
+h1{
     font-size: 90px;
     text-align: center;
     letter-spacing: 10px;
@@ -22,14 +27,17 @@ h1 {
     font-family: 'Mukta', sans-serif;
     font-style: normal;
     font-weight: 700;  
+    text-decoration: none;
 }
 
-h2 {
+
+h2{
     font-size: 40px;
     text-align: center;
     padding: 20px;
-    color: #1d1d1d;
-    text-shadow: 3px 3px 1px black;
+    color: #6231d4;
+    text-shadow: 3px 3px 1px #dddddd;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -40,8 +48,23 @@ h3 {
     text-transform: lowercase;
     color: #a5a5a5;
     margin-bottom: 20px;
+    font-weight: 1400;
 }
 
+hr {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    height: 2px;
+    background-color:#000000;
+}
+
+.brmedium {
+    display: block;
+    margin-bottom: 20px;
+}
 
 img{
     display: block;
@@ -50,7 +73,7 @@ img{
 }
 
 .container {
-    width: 1400px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -63,8 +86,8 @@ img{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 750px;
-    padding: 20px;
+    width: 550px;
+    padding: 15px;
     float: right;
 }
 
@@ -78,5 +101,11 @@ img{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.stuff {
+    color: #ff0000;
+}
+
+
 
 
