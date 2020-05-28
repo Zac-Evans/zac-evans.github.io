@@ -1,6 +1,7 @@
-function myFunc() {
-    console.log("Hello World!");
-    console.log("Hello World again!");
+function myFunc(name, otherName) {
+    console.log("Hello," + name + "!");
+    console.log("And" + otherName + "!");
 }
 
-myFunc();
+myFunc("Adam","Krissy");
+myFunc("Zac", "Dad");
