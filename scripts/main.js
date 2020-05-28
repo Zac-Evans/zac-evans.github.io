@@ -1,1 +1,6 @@
-console.log('Hello,World!')
+function myFunc() {
+    console.log("Hello World!");
+    console.log("Hello World again!");
+}
+
+myFunc();
